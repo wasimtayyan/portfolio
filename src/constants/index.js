@@ -14,12 +14,13 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  Next,
   Recoded,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  fierbase,
+  Muhanned,
 } from "../assets";
 import { pngwing } from "../assets"
 
@@ -71,8 +72,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Firebase",
+    icon: fierbase,
   },
   {
     name: "React JS",
@@ -87,17 +88,17 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Next JS",
+    icon: Next,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -106,10 +107,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -170,11 +171,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Wasim is an exceptional student whose dedication, quick grasp of complex concepts, and collaborative spirit truly set him apart. His passion and proficiency make him an invaluable asset to any team. I have no doubt his future will be marked by continued excellence.",
+    name: "Muhanned Noman",
+    designation: "Senior Trainer",
+    company: "Re:coded",
+    image: Muhanned,
   },
   {
     testimonial:
