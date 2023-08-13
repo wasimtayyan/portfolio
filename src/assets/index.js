@@ -25,10 +25,13 @@ import Next from "./tech/Next.png";
 import pngwing from "./company/pngwing.png"
 import Recoded from "./company/Recoded.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import promptopia from "./promptopia.png";
+import shopy from "./shopy.png";
+import Learnu from "./Learnu.png";
+
 import Muhanned from "./people/Muhanned.jpeg";
+import Vuslat from "./people/Vuslat.jpeg";
+import Wisam from "./people/Wisam.jpeg";
 
 export {
   pngwing,
@@ -55,8 +58,10 @@ export {
   fierbase,
   Next,
   Recoded,
-  carrent,
-  jobit,
-  tripguide,
+  promptopia,
+  shopy,
+  Learnu,
   Muhanned,
+  Vuslat,
+  Wisam
 };

@@ -10,17 +10,18 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
+  promptopia,
+  shopy,
   mongodb,
   git,
   figma,
   Next,
   Recoded,
-  carrent,
-  jobit,
-  tripguide,
+  Learnu,
   fierbase,
   Muhanned,
+  Vuslat,
+  Wisam
 } from "../assets";
 import { pngwing } from "../assets"
 
@@ -179,30 +180,30 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Wasim is energetic, quick learner, investigative disciplined and prone to teamwork. I feel lucky to have realized our Bootcamp project together.",
+    name: "Vuslat Sana",
+    designation: "Team Member",
+    company: "Bootcamp Capstone Project",
+    image: Vuslat,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Wasim's prowess in software development shines, marked by rapid learning and unwavering dedication. Truly impressive",
+    name: "Wisam Naji",
+    designation: "Instruction Manager for Software Development",
+    company: "Re:coded",
+    image: Wisam,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Promptopia",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      " Promptopia is an open- source AI prompting tool designed for the modern world.With Promptopia, you can effortlessly discover, create, and share creative prompts",
     tags: [
       {
-        name: "react",
+        name: "Next",
         color: "blue-text-gradient",
       },
       {
@@ -214,13 +215,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: promptopia,
+    source_code_link: "https://github.com/wasimtayyan/promptopia",
   },
   {
-    name: "Job IT",
+    name: "Nominate movies",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This web application allows users to search for and choose five movies. The app then determines and presents the winning movie among the selected options.",
     tags: [
       {
         name: "react",
@@ -231,33 +232,33 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: shopy,
+    source_code_link: "https://github.com/wasimtayyan/shopify-challenge",
   },
   {
-    name: "Trip Guide",
+    name: "Learn U",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The objective of this application is to create an interactive and captivating educational platform that offers users a customized learning experience.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind & css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Learnu,
+    source_code_link: "https://github.com/202303-PRM-TR-FEW/Learning-app-team-5",
   },
 ];
 
