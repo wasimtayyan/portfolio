@@ -14,7 +14,8 @@ import {
   shopy,
   mongodb,
   git,
-  figma,
+  github,
+  GitHub,
   Next,
   Recoded,
   Learnu,
@@ -49,10 +50,10 @@ const services = [
     title: "Responsive Design",
     icon: mobile,
   },
-  {
-    title: "Web Application Development",
-    icon: backend,
-  },
+  // {
+  //   title: "Web Application Development",
+  //   icon: backend,
+  // },
   {
     title: "User Interface (UI) Design",
     icon: creator,
@@ -73,12 +74,20 @@ const technologies = [
     icon: javascript,
   },
   {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: Next,
+  },
+  {
     name: "Firebase",
     icon: fierbase,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "Redux Toolkit",
@@ -88,26 +97,20 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
+
+
   {
-    name: "Next JS",
-    icon: Next,
+    name: "GitHub",
+    icon: GitHub,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   // {
   //   name: "docker",
   //   icon: docker,
@@ -141,19 +144,19 @@ const experiences = [
       "Learned collaborative teamwork and Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Develop a Learning web Application",
+    company_name: "Capstone Project for FE bootcamp",
+    icon: Recoded,
+    iconBg: "#E6DEDD",
+    date: "July 2023 - sep 2023",
+    points: [
+      "Led a team of 5 developers to create an immersive learning web app for students, professionals,and lifelong learners.",
+      "Oversaw end-to-end development of an interactive learning app with diverse courses andvisually engaging content.",
+      "Managed collaborative effort to build an innovative app enabling users to personalize learning,track progress, and engage in interactive exercises.",
+      "Demonstrated leadership in fostering innovation, resulting in timely project completion and successful app launch.",
+    ],
+  },
   // {
   //   title: "Full stack Developer",
   //   company_name: "Meta",
@@ -177,6 +180,7 @@ const testimonials = [
     designation: "Senior Trainer",
     company: "Re:coded",
     image: Muhanned,
+    linkedIn: "https://www.linkedin.com/in/muhannednoman/"
   },
   {
     testimonial:
@@ -185,6 +189,7 @@ const testimonials = [
     designation: "Team Member",
     company: "Bootcamp Capstone Project",
     image: Vuslat,
+    linkedIn: "https://www.linkedin.com/in/vuslat-sena-emre/"
   },
   {
     testimonial:
@@ -193,6 +198,7 @@ const testimonials = [
     designation: "Instruction Manager for Software Development",
     company: "Re:coded",
     image: Wisam,
+    linkedIn: "https://www.linkedin.com/in/wisamnaji/"
   },
 ];
 
