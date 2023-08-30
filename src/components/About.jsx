@@ -54,7 +54,7 @@ const About = () => {
         Let's work together to bring your ideas to life!
         <a
           className="px-2 underline underline-offset-auto text-cyan-600"
-          href="https://app.enhancv.com/share/f0a9cfda/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic"
+          href="https://drive.google.com/file/d/1m9v4UAaNZqPtiYS5qZdGW_H-fC8D6czW/view?usp=sharing"
           target="_blank"
         >
           -check my Resume-
