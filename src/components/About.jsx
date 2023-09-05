@@ -47,17 +47,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript, and
-        expertise in libraries and frameworks like React, Next.js I'm a quick
+        I'm a skilled software developer with experience in JavaScript and
+        expertise in libraries and frameworks like React and Next.js. I'm a quick
         learner and collaborate closely with clients to create efficient,
         scalable, and user-friendly solutions that solve real-world problems.
         Let's work together to bring your ideas to life!
         <a
           className="px-2 underline underline-offset-auto text-cyan-600"
-          href="https://drive.google.com/file/d/1PY9e47PJCy9BRV5TNn2nbCnW1buGN9OJ/view?usp=sharing"
+          href="https://drive.google.com/file/d/1H5TSn6Yo0ucCxGmix3ZWVGyxqRkqIQv_/view?usp=sharing"
           target="_blank"
         >
-          -check my Resume-
+          -Check my Resume-
         </a>
       </motion.p>
 
